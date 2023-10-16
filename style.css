@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar start ========================================== */
+nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: #3fbbc0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    padding-left: 15px;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    outline: none;
+    color: #3fbbc0;
+    background-color: transparent;
+    font-weight: 520;
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+/* background: #36D1DC;  */
+
+/* home page ==================================  */
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_1280.jpg");
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_1280.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+
+}
+
+.home h1 {
+    color: white;
+    padding-top: 9%;
+    font-size: 3.3rem;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-search {
+    margin-top: 30px;
+    padding-right: 9%;
+}
+
+.home-search input {
+    width: 25vw;
+    height: 7vh;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    position: relative;
+}
+
+.home-search button {
+    width: 10vw;
+    height: 7vh;
+    background-color: #3fbbc0;
+    color: white;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    margin-left: 0;
+    position: absolute;
+    transition: .4s;
+}
+
+.home-search button:hover {
+    background-color: #257c80;
+}
+
+.home p {
+    color: rgb(230, 228, 228);
+    padding: 40px 24%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    color: white;
+    background-color: #3fbbc0;
+    font-size: 1rem;
+    padding: 10px 25px;
+    margin-right: 13%;
+    margin-top: 20px;
+}
+
+
+/* services start  */
+.services {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.ser-text {
+    width: 40vw;
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(48, 48, 48);
+    padding-top: 30px;
+}
+
+.ser-text button {
+    color: white;
+    background-color: #3fbbc0;
+    padding: 12px 27px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.ser-img {
+    width: 40vw;
+}
+
+.ser-img img {
+    width: 100%;
+    height: 50vh;
+}
+
+/* 2  */
+.job {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+
+
+
+/* footer  */
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #3fbbc0;
+    margin-top: 40px;
+    padding-left: 15%;
+}
+footer h1{
+    color: white;
+    padding-top: 30px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p{
+    color: white;
+}
+.foot-input{
+    margin-top: 40px;
+}
+.foot-input input{
+   position: relative;
+   width: 66vw;
+   height: 8vh;
+   padding-left: 20px;
+   border: none;
+   outline: none;
+   border-radius: 13px;
+}
+.foot-input button{
+    color: white;
+    background-color: black;
+    position: absolute;
+    border-radius: 13px;
+    right: 16%;
+    margin-top: 3px;
+    width: 15vw;
+    height: 7vh;
+}
+.main  {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 7%;
+ margin-bottom: 10px;
+}
